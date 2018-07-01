@@ -1,0 +1,11 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[23/06/2018 11:23:34 AM] - SE HA LOGEADO EL USUARIO: ISABEL 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[23/06/2018 11:28:29 AM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[23/06/2018 11:28:37 AM] - SQLSTATE: 42000
+[23/06/2018 11:28:37 AM] - CODIGO: 102
+[23/06/2018 11:28:37 AM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[23/06/2018 11:28:37 AM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '12' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[23/06/2018 11:28:54 AM] - SE HA LOGEADO EL USUARIO: monica

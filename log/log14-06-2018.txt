@@ -1,0 +1,25 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[14/06/2018 11:32:38 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[14/06/2018 11:32:54 AM] - SQLSTATE: 42000
+[14/06/2018 11:32:54 AM] - CODIGO: 156
+[14/06/2018 11:32:54 AM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[14/06/2018 11:32:54 AM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 222-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[14/06/2018 11:33:16 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[14/06/2018 12:55:58 PM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[14/06/2018 12:56:10 PM] - SQLSTATE: 42000
+[14/06/2018 12:56:10 PM] - CODIGO: 102
+[14/06/2018 12:56:10 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[14/06/2018 12:56:10 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '12' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[14/06/2018 12:56:37 PM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[14/06/2018 03:55:28 PM] - SE HA LOGEADO EL USUARIO: angelica
