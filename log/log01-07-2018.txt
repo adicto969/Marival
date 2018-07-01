@@ -1,0 +1,14 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[01/07/2018 09:58:09 AM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[01/07/2018 09:58:13 AM] - SQLSTATE: 42S22
+[01/07/2018 09:58:13 AM] - CODIGO: 207
+[01/07/2018 09:58:13 AM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'fechaO'.
+[01/07/2018 09:58:13 AM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '10' and tipoN = '4' and IDEmpresa = 1
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[01/07/2018 09:58:28 AM] - SQLSTATE: 42S22
+[01/07/2018 09:58:28 AM] - CODIGO: 207
+[01/07/2018 09:58:28 AM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'fechaO'.
+[01/07/2018 09:58:28 AM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '10' and tipoN = '4' and IDEmpresa = 1
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[01/07/2018 10:34:08 AM] - SE HA LOGEADO EL USUARIO: test3

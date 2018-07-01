@@ -66,7 +66,7 @@ if($_SESSION['Permiso'] == 1 || $_SESSION['Sudo'] == 1){
 	echo '</div>';
 	echo '</div>';
 }else {
-echo '<div class="fixed-action-btn" style="bottom: 24px; right: 24px;">';
+	echo '<div class="fixed-action-btn" style="bottom: 24px; right: 24px;">';
 	echo '	<a class="waves-effect waves-light btn-floating btn-large right-align red"><i data-target="modalConfig" class="material-icons prefix">settings</i></a>';
 	echo '</div>';
 
@@ -75,16 +75,30 @@ echo '<div class="fixed-action-btn" style="bottom: 24px; right: 24px;">';
 	echo '		<div class="row">';
 	echo '		<div class="col s12 m4"></div>';
 	echo '		<div class="col s12 m4 input-field">';
-	echo '		<div style="height: 30px;margin-bottom: 10px;"><label>Seleccione Un Supervisor</label></div>';
-	echo '	<select id="SelectSupervisor">';
-	echo '		<option value="0v" disabled="disabled">SUPERVISOR</option>';
-	$queryS = "SELECT supervisor, nombre FROM supervisores WHERE empresa = ".$IDEmpresa;
+	echo '		<div style="height: 30px;margin-bottom: 10px;"><label>Seleccione Un Departamento</label></div>';
+	echo '      <input type="hidden" id="IDEmpConfig" value="'.$IDEmpresa.'">';
+	echo '	<select id="SelectDep">';
+	echo '		<option value="0v" disabled="disabled">CENTROS</option>';
+	
+	$centrosAll = trim(str_replace(" ", "", $centrosAll));
+	$listCentros = explode(",", $centrosAll);
+	$centrosFinal = "";
+	for($x = 0; $x < count($listCentros); $x++)
+	{
+		if($x == count($listCentros) -1)
+		{
+			$centrosFinal .= "'$listCentros[$x]'";
+		}else {
+			$centrosFinal .= "'$listCentros[$x]',";
+		}		
+	}
+	$queryS = "SELECT LTRIM ( RTRIM ( centro ) ) AS centro, nomdepto FROM centros WHERE centro IN ($centrosFinal) AND empresa = '".$IDEmpresa."' ORDER BY nomdepto asc;";	
 	$objBDSQL->consultaBD($queryS);
 	while ($datos = $objBDSQL->obtenResult()) {
-		if($datos['supervisor'] == $supervisor){
-			echo '<option value="'.$datos['supervisor'].'" selected>'.utf8_encode($datos['nombre']).'</option>';
+		if($datos['centro'] == $centro){
+			echo '<option value="'.$datos['centro'].'" selected>'.utf8_encode($datos['nomdepto']).'</option>';
 		}else {
-			echo '<option value="'.$datos['supervisor'].'">'.utf8_encode($datos['nombre']).'</option>';
+			echo '<option value="'.$datos['centro'].'">'.utf8_encode($datos['nomdepto']).'</option>';
 		}
 	}
 	$objBDSQL->liberarC();

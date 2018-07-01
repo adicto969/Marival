@@ -11,23 +11,20 @@ date_default_timezone_set('America/Bahia_Banderas'); //misma hora
 define('M_DB_SERVER', 'localhost');
 define('M_DB_USER', 'root');
 define('M_DB_PASS', '');
-define('M_DB_NOMBRE', 'faltascabos');
+define('M_DB_NOMBRE', 'marival');
 
 #Constantes de Conexion SQLSERVER
-define('S_DB_SERVER', 'APSI');
-
+define('S_DB_SERVER', 'DESKTOP-2POHOQ5\\JUAN2017');
 define('S_DB_USER', 'sa');
-
-define('S_DB_PASS', 'M@RIV@L.2017');
-
-define('S_DB_NOMBRE', 'apsisistemas');
+define('S_DB_PASS', 'Enterprice9');
+define('S_DB_NOMBRE', 'Rosita');
 
 define('Unidad', 'C:\\apsisistemas\\ARCHIVOS\\');
 #Constantes de la App
 define('HTML_DIR', 'html/');
 define('TITULO_PAGINA', 'PRENOMINA');
-define('FECHA_MODIFICACION', 'Ultima Actualización : 24/04/2018');
-define('URL_PAGINA', 'http://192.168.0.13/Prenomina/');
+define('FECHA_MODIFICACION', 'Ultima ActualizaciÃ³n : 24/04/2018');
+define('URL_PAGINA', 'http://localhost:8080/GitHub/Marival/');
 
 define('Autoriza1', 'sudo');
 define('Autoriza2', 'Nominas');

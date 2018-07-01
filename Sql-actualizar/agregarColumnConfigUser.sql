@@ -1,0 +1,1 @@
+ALTER TABLE `config` ADD `centros` TEXT NOT NULL;

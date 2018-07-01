@@ -327,6 +327,7 @@ if($DepOsub == 1)
   '".$ordernar."'";
   $ComSql = "Centro ".$filC;
 }
+
 /////////////Periodo y TipoNomina/////////
 $_UPDATEPYT = "UPDATE config SET PC = $_periodo, TN = $_tipoNom WHERE IDUser = '".$_SESSION['IDUser']."';";
 try{
