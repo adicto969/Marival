@@ -1,0 +1,8 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[26/06/2018 10:49:05 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[26/06/2018 11:57:24 AM] - SE HA LOGEADO EL USUARIO: ISABEL 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[26/06/2018 12:43:45 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[26/06/2018 04:02:01 PM] - SE HA LOGEADO EL USUARIO: angelica

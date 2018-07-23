@@ -1,0 +1,233 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 11:51:43 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 11:51:53 AM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 04:20:26 PM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 05:07:43 PM] - SE HA LOGEADO EL USUARIO: ISABEL
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 05:07:45 PM] - SQLSTATE: 42000
+[02/07/2018 05:07:45 PM] - CODIGO: 156
+[02/07/2018 05:07:45 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 05:07:45 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 27-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 05:07:45 PM] - SQLSTATE: 42000
+[02/07/2018 05:07:45 PM] - CODIGO: 102
+[02/07/2018 05:07:45 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 05:07:45 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 05:07:55 PM] - SQLSTATE: 42000
+[02/07/2018 05:07:55 PM] - CODIGO: 156
+[02/07/2018 05:07:55 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 05:07:55 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 28-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 05:09:17 PM] - SE HA LOGEADO EL USUARIO: ISABEL
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 06:04:28 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:32 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:32 PM] - CODIGO: 156
+[02/07/2018 06:04:32 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:04:32 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 27-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:32 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:32 PM] - CODIGO: 102
+[02/07/2018 06:04:32 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:04:32 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:41 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:41 PM] - CODIGO: 156
+[02/07/2018 06:04:41 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:04:41 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 27-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:41 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:41 PM] - CODIGO: 102
+[02/07/2018 06:04:41 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:04:41 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:43 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:43 PM] - CODIGO: 156
+[02/07/2018 06:04:43 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:04:43 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 27-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:43 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:43 PM] - CODIGO: 102
+[02/07/2018 06:04:43 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:04:43 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:43 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:43 PM] - CODIGO: 156
+[02/07/2018 06:04:43 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:04:43 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 28-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:43 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:43 PM] - CODIGO: 102
+[02/07/2018 06:04:43 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:04:43 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:49 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:49 PM] - CODIGO: 156
+[02/07/2018 06:04:49 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:04:49 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 28-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:04:49 PM] - SQLSTATE: 42000
+[02/07/2018 06:04:49 PM] - CODIGO: 102
+[02/07/2018 06:04:49 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:04:49 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:11 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:11 PM] - CODIGO: 156
+[02/07/2018 06:05:11 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:05:11 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 28-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:11 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:11 PM] - CODIGO: 102
+[02/07/2018 06:05:11 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:05:11 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:12 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:12 PM] - CODIGO: 156
+[02/07/2018 06:05:12 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:05:12 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 2-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:12 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:12 PM] - CODIGO: 102
+[02/07/2018 06:05:12 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:05:12 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:12 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:12 PM] - CODIGO: 156
+[02/07/2018 06:05:12 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de la palabra clave 'AND'.
+[02/07/2018 06:05:12 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                             CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                      FROM Periodos
+                      WHERE tiponom = 1
+                      AND periodo = 27-1
+                      AND ayo_operacion = 
+                      AND empresa = ;:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:05:12 PM] - SQLSTATE: 42000
+[02/07/2018 06:05:12 PM] - CODIGO: 102
+[02/07/2018 06:05:12 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:05:12 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = -1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 06:05:25 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:06:09 PM] - SQLSTATE: 42000
+[02/07/2018 06:06:09 PM] - CODIGO: 102
+[02/07/2018 06:06:09 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[02/07/2018 06:06:09 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '27' and tipoN = '1' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 06:06:25 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[02/07/2018 06:06:42 PM] - SQLSTATE: 42000
+[02/07/2018 06:06:42 PM] - CODIGO: 102
+[02/07/2018 06:06:42 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de ';'.
+[02/07/2018 06:06:42 PM] - CONSULTA: SELECT CONVERT (VARCHAR (10), inicio, 103) AS 'FECHA1',
+                          CONVERT (VARCHAR (10), cierre, 103) AS 'FECHA2'
+                   FROM Periodos
+                   WHERE tiponom = 1
+                   AND periodo = 27-1
+                   AND ayo_operacion = 2018
+                   AND empresa =  ;
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[02/07/2018 06:06:54 PM] - SE HA LOGEADO EL USUARIO: jnominas

@@ -1,0 +1,107 @@
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 09:34:32 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 09:34:35 AM] - SQLSTATE: 42000
+[08/06/2018 09:34:35 AM] - CODIGO: 102
+[08/06/2018 09:34:35 AM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 09:34:35 AM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 09:35:29 AM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:36:12 AM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:37:54 AM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:39:51 AM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:42:13 AM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:42:32 AM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:45:21 AM] - SE HA LOGEADO EL USUARIO: isabel
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:46:24 AM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:50:43 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:51:05 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:51:54 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:53:23 AM] - SE HA LOGEADO EL USUARIO: isabel
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 10:53:31 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 11:18:14 AM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 11:37:52 AM] - SE HA LOGEADO EL USUARIO: isabel 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 01:15:29 PM] - SE HA LOGEADO EL USUARIO: ISABEL
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 01:15:50 PM] - SE HA LOGEADO EL USUARIO: isabel
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 01:41:07 PM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 03:12:48 PM] - SE HA LOGEADO EL USUARIO: monica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 03:21:54 PM] - SE HA LOGEADO EL USUARIO: angelica
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 04:30:40 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 04:31:40 PM] - SQLSTATE: 42000
+[08/06/2018 04:31:40 PM] - CODIGO: 102
+[08/06/2018 04:31:40 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 04:31:40 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 04:31:58 PM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:32:13 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:32:52 PM] - SQLSTATE: 42000
+[08/06/2018 05:32:52 PM] - CODIGO: 102
+[08/06/2018 05:32:52 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:32:52 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:33:03 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:33:26 PM] - SQLSTATE: 42000
+[08/06/2018 05:33:26 PM] - CODIGO: 102
+[08/06/2018 05:33:26 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:33:26 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:33:57 PM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:34:05 PM] - SQLSTATE: 42000
+[08/06/2018 05:34:05 PM] - CODIGO: 102
+[08/06/2018 05:34:05 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:34:05 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:34:21 PM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:34:29 PM] - SQLSTATE: 42000
+[08/06/2018 05:34:29 PM] - CODIGO: 102
+[08/06/2018 05:34:29 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:34:29 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:34:59 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:36:33 PM] - SQLSTATE: 42000
+[08/06/2018 05:36:33 PM] - CODIGO: 102
+[08/06/2018 05:36:33 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:36:33 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:36:51 PM] - SE HA LOGEADO EL USUARIO: jnominas
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:41:34 PM] - SQLSTATE: 42000
+[08/06/2018 05:41:34 PM] - CODIGO: 102
+[08/06/2018 05:41:34 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:41:34 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:42:39 PM] - SE HA LOGEADO EL USUARIO: sudo
+:::::::::::::::::::::::ERROR SQL:::::::::::::::::::::::
+[08/06/2018 05:43:46 PM] - SQLSTATE: 42000
+[08/06/2018 05:43:46 PM] - CODIGO: 102
+[08/06/2018 05:43:46 PM] - MENSAJE: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Sintaxis incorrecta cerca de '='.
+[08/06/2018 05:43:46 PM] - CONSULTA: SELECT codigo, nombre, fechaO, valor, Centro, Autorizo1, Autorizo2, Autorizo3 FROM datosanti WHERE periodoP = '11' and tipoN = '4' and IDEmpresa = 
+:::::::::::::::::::::::LOGIN:::::::::::::::::::::::
+[08/06/2018 05:44:15 PM] - SE HA LOGEADO EL USUARIO: sudo
