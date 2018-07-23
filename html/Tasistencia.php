@@ -99,8 +99,13 @@ $fecha4 = $fecha2;
             <label for="fchP_F">Fecha Final</label>
             <input id="fchP_F" type="text" value="<?php echo $fecha4; ?>" style="margin-left: 77px; width: 142px; font-size: 1rem; height: 1.5rem;" disabled>
             <br/>
-            <label for="tiponom">Tipo de nomina</label>
-            <input id="tiponom" type="number" min="1" max="6" name="tiponom" value="<?php echo $TN; ?>" style="margin-left: 50px; width: 142px; font-size: 1rem; height: 1.5rem;">
+            <?php if($_SESSION['Sudo'] == 1){ 
+              echo '<label for="tiponom">Tipo de nomina</label>';
+              echo '<input id="tiponom" type="number" min="1" max="6" name="tiponom" value="'.$TN.'" style="margin-left: 50px; width: 142px; font-size: 1rem; height: 1.5rem;">';
+            }else {
+              echo '<label for="tiponom">Tipo de nomina: '.$TN.'</label>';
+            }
+            ?>
             <br/>
             <div class="boton col s12 center-align" style="margin-top: 50px; margin-bottom: 50px;">
                 <input class="btn" type="submit" value="BUSCAR" onclick="Checadas()" id="btnT"/>

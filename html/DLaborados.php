@@ -8,8 +8,13 @@
 	            <label for="fch">Fecha</label>
 	            <input id="fch" type="text" value="<?php echo date("d/m/Y"); ?>" style="margin-left: 76px; width: 142px; font-size: 1rem; height: 1.5rem;">
 	            <br/>
-	            <label for="tiponom">Tipo de nomina</label>
-	            <input id="tiponom" type="number" min="1" max="6" name="tiponom" value="<?php echo $TN; ?>" style="margin-left: 19px; width: 142px; font-size: 1rem; height: 1.5rem;">
+							<?php if($_SESSION['Sudo'] == 1){ 
+	            	echo '<label for="tiponom">Tipo de nomina</label>';
+								echo '<input id="tiponom" type="number" min="1" max="6" name="tiponom" value="'.$TN.'" style="margin-left: 19px; width: 142px; font-size: 1rem; height: 1.5rem;">';
+							}else {
+								echo '<label for="tiponom">Tipo de nomina: '.$TN.'</label>';
+							}
+							?>
 	            <br/>
                 <label for="Dep">Departamento</label>
                 <input id="Dep" type="text" name="Dep" value="<?php echo $centro; ?>" style="margin-left: 24px; width: 142px; font-size: 1rem; height: 1.5rem;">

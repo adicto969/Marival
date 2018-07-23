@@ -1,9 +1,10 @@
 function Registro(){
-  var conexion, variables, responder, resultado, user, pass, Cpass, Spass, NEmpresa, CDepto, admin, Area;
+  var conexion, variables, responder, resultado, user, pass, Cpass, Spass, NEmpresa, CDepto, admin, Area, tipoNom;
   user = document.getElementById('user_reg').value;
   pass = document.getElementById('pass_reg').value;
   Cpass = document.getElementById('Cpass_reg').value;
   Spass = document.getElementById('Spass_reg').value;
+  tipoNom = document.getElementById('tipoNom_reg').value;
   NEmpresa = document.getElementById('empresa_reg').value;
   CDepto = document.getElementById('depto_reg').value;
 
@@ -29,7 +30,7 @@ function Registro(){
   if(user != '' && pass != '' && Cpass != '' && Spass != '' && NEmpresa != '' && CDepto != ''){
 
     if(pass == Cpass){
-      variables = 'user='+user+'&pass='+pass+'&Spass='+Spass+'&NEmpresa='+NEmpresa+'&CDepto='+CDepto+'&admin='+admin+'&Area='+Area;
+      variables = 'user='+user+'&pass='+pass+'&Spass='+Spass+'&NEmpresa='+NEmpresa+'&CDepto='+CDepto+'&admin='+admin+'&Area='+Area+'&tipoNom='+tipoNom;
       conexion = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
       conexion.onreadystatechange = function() {
         if(conexion.readyState == 4 && conexion.status == 200){
